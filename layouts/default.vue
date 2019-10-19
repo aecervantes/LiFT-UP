@@ -1,15 +1,15 @@
 <template>
   <div>
     <header>
+      <div>
+          <a href="/" class="logo">
+            <img src="LiFT_UP_logo.PNG" alt="LiFT_UP_logo">
+          </a>
+      </div>
       <div class="logo-section py-5">
         <div class="container">
           <div class="row">
             <div class="col">
-              <a href="/" class="logo">
-                <h1>
-                  Lift Up
-                </h1>
-              </a>
             </div>
           </div>
         </div>
@@ -87,5 +87,9 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+h1  {
+  color: #4582FC;
 }
 </style>
