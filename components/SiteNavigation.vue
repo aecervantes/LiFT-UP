@@ -20,3 +20,16 @@
 		</b-navbar>
 	</div>
 </template>
+
+<style>
+.navbar-light .navbar-nav .nav-link{
+	color: #dcfaff;
+	font-size:1.2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#fff;
+}
+
+</style>

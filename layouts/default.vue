@@ -44,4 +44,8 @@ export default {
   #main{
     font-size:2rem;
   }
+  .logo-section img {
+    height: auto;
+    width: 200px;
+  }
 </style>

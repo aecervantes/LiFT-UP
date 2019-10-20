@@ -1,6 +1,10 @@
+/*
+Hex code for dark blue color#106977
+Hex code for light blue color#dcfaff
+Hex code for light orange color#E4491C
+Hex code for dark orange color#9e2f0f
+*/
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -10,6 +14,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  color:#353535;
+}
 *,
 *:before,
 *:after {
@@ -18,6 +26,18 @@ html {
 }
 .btn.btn{
   font-size:2rem;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #E4491C;
+    border-color: #9e2f0f;
+  }
+
+.btn-info:hover,
+.btn-info:focus{
+  background-color: #9e2f0f;
+  border-color: #E4491C;
 }
 
 .button--green {
@@ -49,3 +69,6 @@ html {
   background-color: #35495e;
 }
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+
+}
