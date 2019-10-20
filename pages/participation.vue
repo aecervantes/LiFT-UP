@@ -42,7 +42,7 @@
 
 	<h2>For More Information:</h2>
 		<p>
-			
+			...
 		</p>
 
   </div>

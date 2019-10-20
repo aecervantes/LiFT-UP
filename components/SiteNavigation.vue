@@ -27,11 +27,5 @@
 			</b-navbar-nav>
 			</b-collapse>
 		</b-navbar>
-
-		<style>
-			h1  {
-  			color: #4582FC;
-				}
-		</style>
 	</div>
 </template>

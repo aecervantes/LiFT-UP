@@ -2,11 +2,7 @@
   <div class="container">
     <div>
       <h1 class="title item">What is LiFT UP?</h1>
-      <div class="container">
-        <h2>Carousel Example</h2>
-      </div>
-
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide pb-3" data-ride="carousel">
         <ol class="carousel-indicators">
           <li
             data-target="#carouselExampleIndicators"
@@ -50,16 +46,16 @@
         The LiFT UP study specifically aims to:
         <li>Characterize cancer risk for families with Li-Fraumeni syndrome</li>
         <li>Evaluate genetic modifiers of the TP53 gene and their impact on cancer risk</li>
-        <li>Determine the frequency of acquired TP53 mutations and its impact on cancer risk and overall healt</li>
+        <li>Determine the frequency of acquired TP53 mutations and its impact on cancer risk and overall health</li>
       </p>
 
-      <form>
-        <button type="submit" formaction="INSERT LINK TO ABOUT TAB">More Info</button>
-      </form>
+      <div class="text-center mb-3">
+        <nuxt-link class="btn btn-info btn-largedisplay" to="about">More Info</nuxt-link>
+      </div>
 
-      <form>
-        <button type="submit" formaction="INSERT LINK TO REDCAP">Participate</button>
-      </form>
+      <div class="text-center">
+        <nuxt-link  class="btn btn-info btn-largedisplay" to="participation">Participate</nuxt-link >
+      </div>
     </div>
   </div>
 </template>
@@ -99,4 +95,9 @@ export default {
   height: 0;
   padding-bottom: 50%;
 }
+
+.btn-largedisplay {
+	width: 450px;
+}
+
 </style>
